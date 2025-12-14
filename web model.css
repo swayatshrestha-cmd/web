@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: opx;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px
+    font: left;
+    height: 70px;
+}
+.logo{
+    color: orangered;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 50px;
+    float: left;
+    padding: 50px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 70px;
+    margin-bottom:px;
+    font-size: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family:Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: orangered;
+}
+    

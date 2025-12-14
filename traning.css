@@ -1,0 +1,43 @@
+p span{
+    color: red;
+}
+p a{
+    color:blue ;
+    background-color: aqua;
+}
+p{
+    color:green;
+    text-align: center;
+}
+
+span{
+    color: purple;
+    text-align: center;
+}
+.head-1{
+    color: blue;
+    
+}
+.head-2 span{
+    color: brown;
+}
+.head-3{
+    color:orange;
+}
+html{
+    background-color: bisque;
+}
+#para-one{
+color: blueviolet;
+}
+#para-two{
+color:red;
+}
+#para-three{
+color:green;
+}
+
+
+
+
+

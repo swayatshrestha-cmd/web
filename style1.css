@@ -1,0 +1,19 @@
+button{
+    background-color: blue;
+    color:black;
+    border: none;
+}
+button:hover{
+    background-color: lightblue;
+    cursor: pointer;
+    color: red;
+}
+div p:first-child{
+  color: red;
+}
+div p:last-child{
+    color: blueviolet;
+}
+h1{
+    text-align: center;
+}
