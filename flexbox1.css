@@ -1,0 +1,135 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.flex {
+  display: flex;
+}
+.flex-col{
+  flex-direction: column;
+}
+.navbar {
+  /* border: 1px solid red;  */
+  width: 100vw;
+  height: 5vh;
+  justify-content: space-around;
+  /* background-image: url(https://static.vecteezy.com/system/resources/thumbnails/049/547/404/small_2x/golden-sunset-hd-backgrounds-captivatings-for-serene-scenes-photo.jpg); */
+  /* background-repeat: no-repeat; */
+  background-color: white;
+}
+
+.manu-link {
+  /* border: 1px solid red;    */
+  gap: 50px;
+}
+.item {
+  /* border: 1px solid yellow;  */
+  height: 10px;
+  width: 100px;
+  padding: 10px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  font-size: large;
+}
+.logo {
+  /* border: 1px solid green;   */
+  width: 300px;
+  height: 5px;
+  padding: 3px 0px;
+  font-family: "Arial Narrow Bold";
+  font-weight: bolder;
+  font-size: 25px;
+  padding-right: 100px;
+}
+.section-intro {
+  height: 95vh;
+  width: 100vw;
+}
+.section-image {
+  height: 100%;
+  background-image: url("upper.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.section-content {
+  position: absolute;
+  color: white;
+  /* border: 1px solid white; */
+  top: 35%;
+  left: 5%;
+  gap: 1.025rem;
+}
+.section-title {
+  font-size: 3rem;
+}
+.section-info {
+  font-size: 1rem;
+}
+
+.section-link {
+  width: 230px;
+  text-align: center;
+  border: 1px solid white;
+  padding: 0.5rem 0.5rem;
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
+}
+.section-link :hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+}
+
+.section-link {
+  color: white;
+}
+
+footer {
+  border: 1px solid black;
+  width: 100vw;
+  height: 25vh;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.footer-link {
+  list-style: none;
+  color: gray;
+  /* border: 1px solid red;  */
+  gap: 1.2rem;
+}
+.container-icon {
+  gap: 13px;
+  justify-content: center;
+  align-items: center;
+}
+.footer-desc {
+  color: white;
+  font-size: 1rem;
+  /* border: 1px solid blue  */
+  font-size: 1.2rem;
+}
+.footer-desc span {
+  color: gray;
+  font-size: 20px;
+}
+.icon-group {
+  gap: 3rem;
+}
+.icon {
+  color: white;
+  font-size: 2rem;
+}

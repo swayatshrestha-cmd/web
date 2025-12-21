@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    /* border: 1px solid red; */
+    width: 100vw;
+    height: 17vh;
+    /* flex is already in row */
+    display: flex;
+    /* flex =  helps to aline data */
+    justify-content:space-between;
+    gap: 20px;
+    align-items: center;
+   
+}
+.item{
+      border: 1px solid blue;  
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+}
+button{
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    height: 40px;
+    width: 80px;
+    border: none;
+}
+.manu-link{
+     border: 2px solid green; 
+    display: flex;
+    
+}
+.btns{
+    display: flex;
+    gap: 50px;
+}
+.logo{
+    border: 2px solid green;
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+}
